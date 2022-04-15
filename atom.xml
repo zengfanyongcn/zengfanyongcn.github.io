@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-14T13:53:32.543Z</updated>
+  <updated>2022-04-15T15:10:44.237Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NexT 个性化配置</title>
+    <link href="http://example.com/2022/04/15/NexT-config/"/>
+    <id>http://example.com/2022/04/15/NexT-config/</id>
+    <published>2022-04-15T15:01:26.000Z</published>
+    <updated>2022-04-15T15:10:44.237Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;设置Fork-me-on-github图标&quot;&gt;&lt;a href=&quot;#设置Fork-me-on-github图标&quot; class=&quot;headerlink&quot; title=&quot;设置Fork me on github图标&quot;&gt;&lt;/a&gt;设置Fork me on github图标&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;在&lt;code&gt;\themes\next\layout\_layout.swig&lt;/code&gt;下找到如下代码块&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;lt;div class=&amp;amp;quot;&amp;#123;&amp;#123; container_class &amp;#125;&amp;#125; &amp;#123;% block page_class %&amp;#125;&amp;#123;% endblock %&amp;#125; &amp;amp;quot;&amp;amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;amp;lt;div class=&amp;amp;quot;headband&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/div&amp;amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;添加自己喜欢的样式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;lt;div class=&amp;amp;quot;&amp;#123;&amp;#123; container_class &amp;#125;&amp;#125; &amp;#123;% block page_class %&amp;#125;&amp;#123;% endblock %&amp;#125; &amp;amp;quot;&amp;amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;amp;lt;div class=&amp;amp;quot;headband&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/div&amp;amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;lt;a href=&amp;amp;quot;https://github.com/zengfanyongcn/zengfanyongcn.github.io&amp;amp;quot; class=&amp;amp;quot;github-corner&amp;amp;quot; aria-label=&amp;amp;quot;View source on GitHub&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;svg width=&amp;amp;quot;80&amp;amp;quot; height=&amp;amp;quot;80&amp;amp;quot; viewBox=&amp;amp;quot;0 0 250 250&amp;amp;quot; style=&amp;amp;quot;fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;&amp;amp;quot; aria-hidden=&amp;amp;quot;true&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;path d=&amp;amp;quot;M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/path&amp;amp;gt;&amp;amp;lt;path d=&amp;amp;quot;M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2&amp;amp;quot; fill=&amp;amp;quot;currentColor&amp;amp;quot; style=&amp;amp;quot;transform-origin: 130px 106px;&amp;amp;quot; class=&amp;amp;quot;octo-arm&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/path&amp;amp;gt;&amp;amp;lt;path d=&amp;amp;quot;M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z&amp;amp;quot; fill=&amp;amp;quot;currentColor&amp;amp;quot; class=&amp;amp;quot;octo-body&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/path&amp;amp;gt;&amp;amp;lt;/svg&amp;amp;gt;&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;style&amp;amp;gt;.github-corner:hover .octo-arm&amp;#123;animation:octocat-wave 560ms ease-in-out&amp;#125;@keyframes octocat-wave&amp;#123;0%,100%&amp;#123;transform:rotate(0)&amp;#125;20%,60%&amp;#123;transform:rotate(-25deg)&amp;#125;40%,80%&amp;#123;transform:rotate(10deg)&amp;#125;&amp;#125;@media (max-width:500px)&amp;#123;.github-corner:hover .octo-arm&amp;#123;animation:none&amp;#125;.github-corner .octo-arm&amp;#123;animation:octocat-wave 560ms ease-in-out&amp;#125;&amp;#125;&amp;amp;lt;/style&amp;amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;hexo自定义网站的Favicon图标&quot;&gt;&lt;a href=&quot;#hexo自定义网站的Favicon图标&quot; class=&quot;headerlink&quot; title=&quot;hexo自定义网站的Favicon图标&quot;&gt;&lt;/a&gt;hexo自定义网站的Favicon图标&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;制作ico图标32*32，网站： &lt;a href=&quot;https://www.logosc.cn/logo/favicon?s=z&quot;&gt;https://www.logosc.cn/logo/favicon?s=z&lt;/a&gt; 图标名&lt;code&gt;favicon.ico&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;放在&lt;code&gt;themes\next\source\images&lt;/code&gt;文件下&lt;/li&gt;
+&lt;li&gt;修改主题配置文件，路径&lt;code&gt;themes\next\_config.yml&lt;/code&gt;，如下所示&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;favicon:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  small: /images/favicon-16x16-next.png&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  medium: /images/favicon.ico&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  apple_touch_icon: /images/apple-touch-icon-next.png&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  safari_pinned_tab: /images/logo.svg&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+
+&lt;h2 id=&quot;每篇文章末尾统一添加“本文结束”标记&quot;&gt;&lt;a href=&quot;#每篇文章末尾统一添加“本文结束”标记&quot; class=&quot;headerlink&quot; title=&quot;每篇文章末尾统一添加“本文结束”标记&quot;&gt;&lt;/a&gt;每篇文章末尾统一添加“本文结束”标记&lt;/h2&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>我的第一篇博客</title>
