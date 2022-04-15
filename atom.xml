@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Xiaozeng&#39;S Blog</title>
-  
-  
+  <icon>http://example.com/images/favicon_200x200.png</icon>
+  <subtitle>记录生活</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
@@ -23,12 +23,13 @@
     <published>2022-04-14T08:47:05.000Z</published>
     <updated>2022-04-14T13:53:32.543Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h3><p><img src="https://cdn.jsdelivr.net/gh/zengfanyongcn/image_lib/touxiang.jpg" alt="img"></p>]]></content>
-    
     
       
       
-    <summary type="html">&lt;h3 id=&quot;我的第一篇博客&quot;&gt;&lt;a href=&quot;#我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客&quot;&gt;&lt;/a&gt;我的第一篇博客&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/zengfanyongc</summary>
+        
+        
+    <summary type="html">&lt;h3 id=&quot;我的第一篇博客&quot;&gt;&lt;a href=&quot;#我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客&quot;&gt;&lt;/a&gt;我的第一篇博客&lt;/h3&gt;&lt;p&gt;&lt;img</summary>
+        
       
     
     
