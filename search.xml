@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>NexT 个性化配置</title>
-    <url>/project/2022/04/15/NexT-config/</url>
+    <url>/2022/04/15/NexT-config/</url>
     <content><![CDATA[<h2 id="设置fork-me-on-github图标">设置Fork me on github图标</h2>
 <ul>
 <li>在<code>\themes\next\layout\_layout.swig</code>下找到如下代码块</li>
@@ -59,7 +59,7 @@
   </entry>
   <entry>
     <title>我的第一篇博客</title>
-    <url>/project/2022/04/14/My-first-blog/</url>
+    <url>/2022/04/14/My-first-blog/</url>
     <content><![CDATA[<h3 id="我的第一篇博客">我的第一篇博客</h3>
 <figure>
 <img src="https://cdn.jsdelivr.net/gh/zengfanyongcn/image_lib/touxiang.jpg" alt="img" /><figcaption aria-hidden="true">img</figcaption>
