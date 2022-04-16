@@ -8,6 +8,12 @@
 <img src="https://cdn.jsdelivr.net/gh/zengfanyongcn/image_lib/touxiang.jpg" alt="img" /><figcaption aria-hidden="true">img</figcaption>
 </figure>
 ]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
   </entry>
   <entry>
     <title>NexT 个性化配置</title>
@@ -66,5 +72,11 @@
 <figure class="highlight py"><table><tr><td class="code"><pre><span class="line">rss: /atom.xml</span><br></pre></td></tr></table></figure>
 <p><span class="math display">\[ y=f(x) \]</span></p>
 ]]></content>
+      <categories>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>NexT</tag>
+      </tags>
   </entry>
 </search>

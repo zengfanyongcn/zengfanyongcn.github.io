@@ -6,7 +6,7 @@
   <link href="https://zengfanyongcn.github.io/atom.xml" rel="self"/>
   
   <link href="https://zengfanyongcn.github.io/"/>
-  <updated>2022-04-16T04:36:15.569Z</updated>
+  <updated>2022-04-16T09:59:57.361Z</updated>
   <id>https://zengfanyongcn.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zengfanyongcn.github.io/2022/04/15/NexT-config/"/>
     <id>https://zengfanyongcn.github.io/2022/04/15/NexT-config/</id>
     <published>2022-04-15T15:01:26.000Z</published>
-    <updated>2022-04-16T04:36:15.569Z</updated>
+    <updated>2022-04-16T09:59:57.361Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;设置fork-me-on-github图标&quot;&gt;设置Fork me on github图标&lt;/h2&gt;
@@ -36,6 +36,10 @@
     
     
     
+    <category term="NexT" scheme="https://zengfanyongcn.github.io/categories/NexT/"/>
+    
+    
+    <category term="NexT" scheme="https://zengfanyongcn.github.io/tags/NexT/"/>
     
   </entry>
   
@@ -44,7 +48,7 @@
     <link href="https://zengfanyongcn.github.io/2022/04/14/My-first-blog/"/>
     <id>https://zengfanyongcn.github.io/2022/04/14/My-first-blog/</id>
     <published>2022-04-14T08:47:05.000Z</published>
-    <updated>2022-04-16T02:21:44.489Z</updated>
+    <updated>2022-04-16T09:59:55.857Z</updated>
     
     
       
@@ -59,6 +63,10 @@
     
     
     
+    <category term="Blog" scheme="https://zengfanyongcn.github.io/categories/Blog/"/>
+    
+    
+    <category term="Blog" scheme="https://zengfanyongcn.github.io/tags/Blog/"/>
     
   </entry>
   
