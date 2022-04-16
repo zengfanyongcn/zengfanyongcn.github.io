@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>XiaoZeng&#39;S Blog</title>
-  <icon>http://example.com/icon.png</icon>
+  <icon>https://zengfanyongcn.github.io/project/icon.png</icon>
   <subtitle>记录生活</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://zengfanyongcn.github.io/project/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://zengfanyongcn.github.io/project/"/>
   <updated>2022-04-16T02:21:44.491Z</updated>
-  <id>http://example.com/</id>
+  <id>https://zengfanyongcn.github.io/project/</id>
   
   <author>
     <name>XiaoZeng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>NexT 个性化配置</title>
-    <link href="http://example.com/2022/04/15/NexT-config/"/>
-    <id>http://example.com/2022/04/15/NexT-config/</id>
+    <link href="https://zengfanyongcn.github.io/project/2022/04/15/NexT-config/"/>
+    <id>https://zengfanyongcn.github.io/project/2022/04/15/NexT-config/</id>
     <published>2022-04-15T15:01:26.000Z</published>
     <updated>2022-04-16T02:21:44.491Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="http://example.com/2022/04/14/My-first-blog/"/>
-    <id>http://example.com/2022/04/14/My-first-blog/</id>
+    <link href="https://zengfanyongcn.github.io/project/2022/04/14/My-first-blog/"/>
+    <id>https://zengfanyongcn.github.io/project/2022/04/14/My-first-blog/</id>
     <published>2022-04-14T08:47:05.000Z</published>
     <updated>2022-04-16T02:21:44.489Z</updated>
     
