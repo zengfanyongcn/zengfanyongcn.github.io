@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zengfanyongcn.github.io/2022/04/17/code-background/</loc>
+    <loc>https://zengfanyongcn.github.io/2022/04/14/My-first-blog/</loc>
+    
+    <lastmod>2022-04-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zengfanyongcn.github.io/2022/04/15/NexT-config/</loc>
     
     <lastmod>2022-04-17</lastmod>
     
@@ -20,16 +29,7 @@
   </url>
   
   <url>
-    <loc>https://zengfanyongcn.github.io/2022/04/14/My-first-blog/</loc>
-    
-    <lastmod>2022-04-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zengfanyongcn.github.io/2022/04/15/NexT-config/</loc>
+    <loc>https://zengfanyongcn.github.io/2022/04/17/code-background/</loc>
     
     <lastmod>2022-04-17</lastmod>
     
@@ -121,6 +121,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://zengfanyongcn.github.io/tags/Hexo/</loc>
+    <lastmod>2022-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -145,7 +152,14 @@
   </url>
   
   <url>
-    <loc>https://zengfanyongcn.github.io/categories/NexT/</loc>
+    <loc>https://zengfanyongcn.github.io/categories/code/NexT/</loc>
+    <lastmod>2022-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zengfanyongcn.github.io/categories/code/EChart/</loc>
     <lastmod>2022-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
