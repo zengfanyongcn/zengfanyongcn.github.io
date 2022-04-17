@@ -6,7 +6,7 @@
   <link href="https://zengfanyongcn.github.io/atom.xml" rel="self"/>
   
   <link href="https://zengfanyongcn.github.io/"/>
-  <updated>2022-04-17T10:45:27.095Z</updated>
+  <updated>2022-04-17T13:07:14.799Z</updated>
   <id>https://zengfanyongcn.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NexT 行内代码背景颜色设置</title>
+    <link href="https://zengfanyongcn.github.io/2022/04/17/code-background/"/>
+    <id>https://zengfanyongcn.github.io/2022/04/17/code-background/</id>
+    <published>2022-04-17T13:01:58.000Z</published>
+    <updated>2022-04-17T13:07:14.799Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为实现对 NexT 主题博客中行内代码块的美化，可通过对文字的渲染文件进行设置，实现效果如本博客所示。&lt;/p&gt;
+&lt;p&gt;找到主题文件下 &lt;code&gt;themes\next\source\css\main.styl&lt;/code&gt; 文件，在</summary>
+        
+      
+    
+    
+    
+    <category term="NexT" scheme="https://zengfanyongcn.github.io/categories/NexT/"/>
+    
+    
+    <category term="NexT" scheme="https://zengfanyongcn.github.io/tags/NexT/"/>
+    
+  </entry>
   
   <entry>
     <title>NexT 中嵌入 ECharts 动态图表</title>
