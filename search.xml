@@ -312,8 +312,10 @@
     <title>NexT 行内代码背景颜色设置</title>
     <url>/2022/04/17/code-background/</url>
     <content><![CDATA[<p>为实现对 NexT 主题博客中行内代码块的美化，可通过对文字的渲染文件进行设置，实现效果如本博客所示。</p>
+<span id="more"></span>
 <p>找到主题文件下 <code>themes\next\source\css\main.styl</code> 文件，在 <code>main.styl</code> 文件的最后添加代码块如下 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">// 针对<span class="selector-tag">Code</span>代码标签的美化</span><br><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>: break-word;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#c7254e</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#f9f2f4</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>*** 参考链接 <a href="https://zhuanlan.zhihu.com/p/500171014?">NexT 主题行内代码背景颜色设置</a></p>
+<h4 id="参考链接">参考链接</h4>
+<p><a href="https://zhuanlan.zhihu.com/p/500171014?">NexT 主题行内代码背景颜色设置</a></p>
 ]]></content>
       <categories>
         <category>NexT</category>
