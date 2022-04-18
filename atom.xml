@@ -6,7 +6,7 @@
   <link href="https://zengfanyongcn.github.io/atom.xml" rel="self"/>
   
   <link href="https://zengfanyongcn.github.io/"/>
-  <updated>2022-04-18T04:52:56.586Z</updated>
+  <updated>2022-04-18T08:58:57.824Z</updated>
   <id>https://zengfanyongcn.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git 本地新建项目并提交远程仓库</title>
+    <link href="https://zengfanyongcn.github.io/2022/04/18/git-new/"/>
+    <id>https://zengfanyongcn.github.io/2022/04/18/git-new/</id>
+    <published>2022-04-18T08:46:51.000Z</published>
+    <updated>2022-04-18T08:58:57.824Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Git 是一个开源的分布式版本控制系统，平常可以用于项目管理或者文件备份。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="code" scheme="https://zengfanyongcn.github.io/categories/code/"/>
+    
+    <category term="Git" scheme="https://zengfanyongcn.github.io/categories/code/Git/"/>
+    
+    
+    <category term="Git" scheme="https://zengfanyongcn.github.io/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>NexT 行内代码背景颜色设置</title>
@@ -35,9 +56,9 @@
     <category term="NexT" scheme="https://zengfanyongcn.github.io/categories/code/NexT/"/>
     
     
-    <category term="NexT" scheme="https://zengfanyongcn.github.io/tags/NexT/"/>
-    
     <category term="Hexo" scheme="https://zengfanyongcn.github.io/tags/Hexo/"/>
+    
+    <category term="NexT" scheme="https://zengfanyongcn.github.io/tags/NexT/"/>
     
   </entry>
   
@@ -85,9 +106,9 @@
     <category term="NexT" scheme="https://zengfanyongcn.github.io/categories/code/NexT/"/>
     
     
-    <category term="NexT" scheme="https://zengfanyongcn.github.io/tags/NexT/"/>
-    
     <category term="Hexo" scheme="https://zengfanyongcn.github.io/tags/Hexo/"/>
+    
+    <category term="NexT" scheme="https://zengfanyongcn.github.io/tags/NexT/"/>
     
   </entry>
   

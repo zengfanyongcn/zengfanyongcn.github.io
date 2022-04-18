@@ -67,8 +67,55 @@
         <category>NexT</category>
       </categories>
       <tags>
-        <tag>NexT</tag>
         <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git 本地新建项目并提交远程仓库</title>
+    <url>/2022/04/18/git-new/</url>
+    <content><![CDATA[<p>Git 是一个开源的分布式版本控制系统，平常可以用于项目管理或者文件备份。</p>
+<span id="more"></span>
+<h3 id="本地初始化一个-git-仓库">本地初始化一个 Git 仓库</h3>
+<p>在已有的文件夹下，打开 <code>git bash</code>，<code>git</code> 仓库初始化命令：<code>git init</code></p>
+<p>或者通过新建一个本地文件夹， <code>git</code> 命令：<code>git init [文件夹名]</code></p>
+<p><code>git</code> 初始化不会清空当前文件夹的数据，只是在文件夹中添加一个 <code>.git</code> 文件，用于存储一些<code>git</code> 数据</p>
+<h3 id="添加-提交文件">添加、 提交文件</h3>
+<p><code>git add .</code> ：添加所有的文件暂存</p>
+<p><code>git commit -m "注释"</code> ：将暂存区的内容提交到仓库</p>
+<h3 id="在-github-上新建一个仓库复制仓库的链接">在 github 上新建一个仓库，复制仓库的链接</h3>
+<p>注意，新建的时候暂时不需要勾选创建 README 的文件</p>
+<h3 id="绑定远程仓库">绑定远程仓库</h3>
+<p><code>git remote add origin "仓库链接"</code> ：绑定本地与远程仓库</p>
+<h3 id="将本地文件推送到远程仓库">将本地文件，推送到远程仓库</h3>
+<p><code>git push -u origin master</code> ：推送本地文件至 <code>github</code></p>
+<p><code>git push -u origin master -f</code> ：强制推送本地文件至 <code>github</code></p>
+]]></content>
+      <categories>
+        <category>code</category>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT 行内代码背景颜色设置</title>
+    <url>/2022/04/17/code-background/</url>
+    <content><![CDATA[<p>为实现对 NexT 主题博客中行内代码块的美化，可通过对文字的渲染文件进行设置，实现效果如本博客所示。</p>
+<span id="more"></span>
+<p>找到主题文件下 <code>themes\next\source\css\main.styl</code> 文件，在 <code>main.styl</code> 文件的最后添加代码块如下 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">// 针对<span class="selector-tag">Code</span>代码标签的美化</span><br><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>: break-word;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#c7254e</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#f9f2f4</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h4 id="参考链接">参考链接:</h4>
+<p><a href="https://zhuanlan.zhihu.com/p/500171014?">NexT 主题行内代码背景颜色设置</a></p>
+]]></content>
+      <categories>
+        <category>code</category>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
@@ -82,11 +129,11 @@
 </ul>
 <p>下面是从 <a href="https://echarts.apache.org/examples/zh/index.html">ECharts</a> 官网复制某图表的代码，嵌入到 Markdown 中</p>
 <figure class="highlight py"><table><tr><td class="code"><pre><span class="line">&#123;% echarts <span class="number">400</span> <span class="string">&#x27;61.8%&#x27;</span> %&#125;</span><br><span class="line">option = &#123;</span><br><span class="line"><span class="comment">#   title: &#123;</span></span><br><span class="line"><span class="comment">#      text: &#x27;Stacked Line&#x27;</span></span><br><span class="line"><span class="comment">#   &#125;,</span></span><br><span class="line">  tooltip: &#123;</span><br><span class="line">    trigger: <span class="string">&#x27;axis&#x27;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  legend: &#123;</span><br><span class="line">    data: [<span class="string">&#x27;Email&#x27;</span>, <span class="string">&#x27;Union Ads&#x27;</span>, <span class="string">&#x27;Video Ads&#x27;</span>, <span class="string">&#x27;Direct&#x27;</span>, <span class="string">&#x27;Search Engine&#x27;</span>]</span><br><span class="line">  &#125;,</span><br><span class="line">  grid: &#123;</span><br><span class="line">    left: <span class="string">&#x27;3%&#x27;</span>,</span><br><span class="line">    right: <span class="string">&#x27;4%&#x27;</span>,</span><br><span class="line">    bottom: <span class="string">&#x27;3%&#x27;</span>,</span><br><span class="line">    containLabel: true</span><br><span class="line">  &#125;,</span><br><span class="line">  toolbox: &#123;</span><br><span class="line">    feature: &#123;</span><br><span class="line">      saveAsImage: &#123;&#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  xAxis: &#123;</span><br><span class="line">    <span class="built_in">type</span>: <span class="string">&#x27;category&#x27;</span>,</span><br><span class="line">    boundaryGap: false,</span><br><span class="line">    data: [<span class="string">&#x27;Mon&#x27;</span>, <span class="string">&#x27;Tue&#x27;</span>, <span class="string">&#x27;Wed&#x27;</span>, <span class="string">&#x27;Thu&#x27;</span>, <span class="string">&#x27;Fri&#x27;</span>, <span class="string">&#x27;Sat&#x27;</span>, <span class="string">&#x27;Sun&#x27;</span>]</span><br><span class="line">  &#125;,</span><br><span class="line">  yAxis: &#123;</span><br><span class="line">    <span class="built_in">type</span>: <span class="string">&#x27;value&#x27;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  series: [</span><br><span class="line">    &#123;</span><br><span class="line">      name: <span class="string">&#x27;Email&#x27;</span>,</span><br><span class="line">      <span class="built_in">type</span>: <span class="string">&#x27;line&#x27;</span>,</span><br><span class="line">      stack: <span class="string">&#x27;Total&#x27;</span>,</span><br><span class="line">      data: [<span class="number">120</span>, <span class="number">132</span>, <span class="number">101</span>, <span class="number">134</span>, <span class="number">90</span>, <span class="number">230</span>, <span class="number">210</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      name: <span class="string">&#x27;Union Ads&#x27;</span>,</span><br><span class="line">      <span class="built_in">type</span>: <span class="string">&#x27;line&#x27;</span>,</span><br><span class="line">      stack: <span class="string">&#x27;Total&#x27;</span>,</span><br><span class="line">      data: [<span class="number">220</span>, <span class="number">182</span>, <span class="number">191</span>, <span class="number">234</span>, <span class="number">290</span>, <span class="number">330</span>, <span class="number">310</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      name: <span class="string">&#x27;Video Ads&#x27;</span>,</span><br><span class="line">      <span class="built_in">type</span>: <span class="string">&#x27;line&#x27;</span>,</span><br><span class="line">      stack: <span class="string">&#x27;Total&#x27;</span>,</span><br><span class="line">      data: [<span class="number">150</span>, <span class="number">232</span>, <span class="number">201</span>, <span class="number">154</span>, <span class="number">190</span>, <span class="number">330</span>, <span class="number">410</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      name: <span class="string">&#x27;Direct&#x27;</span>,</span><br><span class="line">      <span class="built_in">type</span>: <span class="string">&#x27;line&#x27;</span>,</span><br><span class="line">      stack: <span class="string">&#x27;Total&#x27;</span>,</span><br><span class="line">      data: [<span class="number">320</span>, <span class="number">332</span>, <span class="number">301</span>, <span class="number">334</span>, <span class="number">390</span>, <span class="number">330</span>, <span class="number">320</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      name: <span class="string">&#x27;Search Engine&#x27;</span>,</span><br><span class="line">      <span class="built_in">type</span>: <span class="string">&#x27;line&#x27;</span>,</span><br><span class="line">      stack: <span class="string">&#x27;Total&#x27;</span>,</span><br><span class="line">      data: [<span class="number">820</span>, <span class="number">932</span>, <span class="number">901</span>, <span class="number">934</span>, <span class="number">1290</span>, <span class="number">1330</span>, <span class="number">1320</span>]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;;</span><br><span class="line">&#123;% endecharts %&#125;</span><br></pre></td></tr></table></figure>
-<p>渲染的折线图效果 <div id="echarts7704" style="width: 61.8%;height: 400px;margin: 0 auto"></div>
+<p>渲染的折线图效果 <div id="echarts7004" style="width: 61.8%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/4.3.0/echarts.common.min.js"></script>
 <script type="text/javascript">
 	// 基于准备好的dom，初始化echarts实例
-	var myChart = echarts.init(document.getElementById('echarts7704'));
+	var myChart = echarts.init(document.getElementById('echarts7004'));
 	// 指定图表的配置项和数据
 	option = {
   <!-- title: { -->
@@ -154,11 +201,11 @@
 	myChart.setOption(option);
 </script></p>
 <p>渲染的雨量流量图效果</p>
-<div id="echarts1575" style="width: 61.8%;height: 400px;margin: 0 auto"></div>
+<div id="echarts5118" style="width: 61.8%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/4.3.0/echarts.common.min.js"></script>
 <script type="text/javascript">
 	// 基于准备好的dom，初始化echarts实例
-	var myChart = echarts.init(document.getElementById('echarts1575'));
+	var myChart = echarts.init(document.getElementById('echarts5118'));
 	// 指定图表的配置项和数据
 	option = {
   <!-- title: { -->
@@ -309,25 +356,6 @@
       <tags>
         <tag>NexT</tag>
         <tag>ECharts</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT 行内代码背景颜色设置</title>
-    <url>/2022/04/17/code-background/</url>
-    <content><![CDATA[<p>为实现对 NexT 主题博客中行内代码块的美化，可通过对文字的渲染文件进行设置，实现效果如本博客所示。</p>
-<span id="more"></span>
-<p>找到主题文件下 <code>themes\next\source\css\main.styl</code> 文件，在 <code>main.styl</code> 文件的最后添加代码块如下 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">// 针对<span class="selector-tag">Code</span>代码标签的美化</span><br><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>: break-word;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#c7254e</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#f9f2f4</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h4 id="参考链接">参考链接:</h4>
-<p><a href="https://zhuanlan.zhihu.com/p/500171014?">NexT 主题行内代码背景颜色设置</a></p>
-]]></content>
-      <categories>
-        <category>code</category>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>NexT</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
