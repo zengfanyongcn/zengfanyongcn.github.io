@@ -74,7 +74,7 @@
   <entry>
     <title>NexT 主题自定义侧边栏图标</title>
     <url>/2022/04/20/NexT-sidebar-icon/</url>
-    <content><![CDATA[<p>NexT 主题的图标基本上都是由 Font Awesome 提供，但是知乎、CSDN、bilibili等大多数国内应用软件的图标在 Font Awesome 都不支持。为了支持侧边栏各种应用小图标的显示，可以利用嵌入svg格式的图标进行实现。</p>
+    <content><![CDATA[<p>NexT 主题的图标基本上都是由 Font Awesome 提供，但是知乎、CSDN、bilibili等大多数国内应用软件的图标在 Font Awesome 都不支持。为了支持侧边栏各种应用小图标的显示，可以利用嵌入 <code>svg</code> 格式的图标进行实现。</p>
 <span id="more"></span>
 <h3 id="下载-icon-图标">下载 icon 图标</h3>
 <p>阿里的 <a href="https://www.iconfont.cn/">iconfont</a> 网站上拥有丰富的图标，通过这个网站下载 <code>svg</code> 格式的图标，并将图片保存在 Hexo 文件下的 <code>source/images</code> 路径下，如果 <code>images</code> 文件不存在，则新建 <code>images</code> 文件夹。（注意：这里是 Hexo下的文件夹下，不是主题文件 NexT 的路径下）</p>
