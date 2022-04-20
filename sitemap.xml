@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zengfanyongcn.github.io/2022/04/20/NexT-sidebar-icon/</loc>
+    
+    <lastmod>2022-04-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zengfanyongcn.github.io/2022/04/17/code-background/</loc>
     
     <lastmod>2022-04-20</lastmod>
@@ -177,14 +186,14 @@
   </url>
   
   <url>
-    <loc>https://zengfanyongcn.github.io/categories/code/Git/</loc>
+    <loc>https://zengfanyongcn.github.io/categories/code/NexT/</loc>
     <lastmod>2022-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zengfanyongcn.github.io/categories/code/NexT/</loc>
+    <loc>https://zengfanyongcn.github.io/categories/code/Git/</loc>
     <lastmod>2022-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -6,7 +6,7 @@
   <link href="https://zengfanyongcn.github.io/atom.xml" rel="self"/>
   
   <link href="https://zengfanyongcn.github.io/"/>
-  <updated>2022-04-18T12:04:13.500Z</updated>
+  <updated>2022-04-20T12:52:01.668Z</updated>
   <id>https://zengfanyongcn.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NexT 主题自定义侧边栏图标</title>
+    <link href="https://zengfanyongcn.github.io/2022/04/20/NexT-sidebar-icon/"/>
+    <id>https://zengfanyongcn.github.io/2022/04/20/NexT-sidebar-icon/</id>
+    <published>2022-04-20T12:42:22.000Z</published>
+    <updated>2022-04-20T12:52:01.668Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;NexT 主题的图标基本上都是由 Font Awesome 提供，但是知乎、CSDN、bilibili等大多数国内应用软件的图标在Font Awesome都不支持。为了支持侧边栏各种应用小图标的显示，可以利用嵌入svg格式的图标进行实现。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="code" scheme="https://zengfanyongcn.github.io/categories/code/"/>
+    
+    <category term="NexT" scheme="https://zengfanyongcn.github.io/categories/code/NexT/"/>
+    
+    
+    <category term="NexT" scheme="https://zengfanyongcn.github.io/tags/NexT/"/>
+    
+  </entry>
   
   <entry>
     <title>Git 备份 Hexo 博客</title>
